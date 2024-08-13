@@ -29,7 +29,7 @@ The main entry point to invoke different commands from the test framework:
 - **make test**: Runs basic tests to check that the app works (in the kind cluster)
 - **make test-local**: Runs basic tests to check that the app works (non-dockerized)
 - **make run**: Runs the app locally (non-dockerized)
-- ** _You do not need to edit of the file above_**
+- ** _You do not need to edit any of the files above_**
 
 ## Altertenative Approach
 
