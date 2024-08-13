@@ -70,7 +70,7 @@ After running the above command, you can access the metrics endpoint by running 
  curl http://localhost:2113/metrics
 ```
  The expected results will look somethings similar to this:
- ![Diagram of the Prometheus Exporter](images/prometheus_exporter.png)
+ ![Diagram of the Prometheus Exporter](app-python/images/prometheus_exporter.png)
 
 
 ---
