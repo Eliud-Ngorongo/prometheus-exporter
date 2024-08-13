@@ -73,7 +73,6 @@ After running the above command, you can access the metrics endpoint by running 
  ![Diagram of the Prometheus Exporter](images/prometheus_exporter.png)
 
 
-
 ---
 # Conclusion
 
