@@ -3,6 +3,14 @@
 ## Overview
 This Prometheus Exporter is written in Python to return metric values for the count of Docker images pulls in a specified DockerHub organization. The exporter runs on port 2113 and provides metrics on the /metrics endpoint.
 
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [Method 1](#method-1-makefiles)
+  - [Method 2](#method-2-docker-and-k8s)
+- [Conclusion](#conclusion)
+- [Contact](#contact)
+
 ## Prerequisites
 Ensure you have the following tools installed and configured on your machine:
 
@@ -14,7 +22,8 @@ Ensure you have the following tools installed and configured on your machine:
 
 ## Installation
 To run this application, make use of the included makefiles with each file and its purpose described below.
-## Makefile
+
+## Method 1: Makefiles
 
 The main entry point to invoke different commands from the test framework:
 
@@ -31,7 +40,7 @@ The main entry point to invoke different commands from the test framework:
 - **make run**: Runs the app locally (non-dockerized)
 - ** _You do not need to edit any of the files above_**
 
-## Altertenative Approach
+## Method 2: Docker and k8s
 
 1. Clone the repository:
    ``` bash
