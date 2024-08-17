@@ -48,6 +48,9 @@ The main entry point to invoke different commands from the test framework:
    cd prometheus exporter
    ```
 2. Build docker image
+   - Please note that for this command to work,you will need to edit the Dockerfile line 6 and use: 
+   - -  _RUN pip install --no-cache-dir -r **app-python**/requirements.txt_
+   - Failure to do so willresult in the build process failling.
 
    ```bash
    docker build -f app-python/Dockerfile -t prometheus_exporter .
